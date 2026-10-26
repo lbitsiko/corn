@@ -1,0 +1,32 @@
+project:
+  name: CORN Demo Project
+  slug: corn-demo
+source:
+  type: csv
+  mode: copy
+  path: documents.csv
+document:
+  id_field: id
+  text_field: text
+  title_field: title
+metadata_fields:
+  - name: topic
+    source_field: topic
+filters:
+  - field: topic
+    label: Topic
+    type: select
+tie_schema:
+  - label: support
+    description: One actor supports another actor or proposal.
+  - label: opposition
+    description: One actor opposes another actor or proposal.
+  - label: mentorship
+    description: An experienced actor guides or assists another actor.
+tie_attribute_schema:
+  - name: valence
+    type: categorical
+    description: Whether the relationship is positive or negative.
+    options:
+      - positive
+      - negative

@@ -1,0 +1,116 @@
+[
+  {
+    "network_type": "Information sharing, informational, information diffusion",
+    "function": {
+      "description": "Primary focus is on sharing information across organizational boundaries. A number of authors make a distinction between information sharing and knowledge exchange.",
+      "citations": [
+        "Isset et al., 2011",
+        "Mays & Scutchfield, 2010",
+        "McGuire, 2006",
+        "Milward & Provan, 2006",
+        "Huarg, forthcoming"
+      ]
+    }
+  },
+  {
+    "network_type": "Knowledge generation and exchange, knowledge management",
+    "function": {
+      "description": "Primary focus is the generation of new knowledge, as well as the spread of new ideas and practices between organizations.",
+      "citations": [
+        "Bell & Zaheer, 2007",
+        "Carlsson, 2003",
+        "Hartley & Benington, 2006",
+        "Huerta et al., 2006",
+        "McGuire, 2006",
+        "Weber & Khademian, 2008",
+        "Phelps, Heidl, & Wadhwa, 2012"
+      ]
+    }
+  },
+  {
+    "network_type": "Capacity building, social capital, outreach",
+    "function": {
+      "description": "Primary focus is on building social capital in community settings, and on improving the administrative capacity of the network members.",
+      "citations": [
+        "Isset et al., 2011",
+        "McGuire, 2006",
+        "Milward & Provan, 2006"
+      ]
+    }
+  },
+  {
+    "network_type": "Individual, organizational, network and community learning",
+    "function": {
+      "description": "Primary focus here is learning, which overlaps both with knowledge exchange and capacity building. Knight and Pye (2005) describe network level learning.",
+      "citations": [
+        "Borgatti & Foster, 2003",
+        "Klijn et al., 2010",
+        "Knight, 2002",
+        "Knight & Pye, 2005",
+        "Schulz & Geithner, 2010"
+      ]
+    }
+  },
+  {
+    "network_type": "Problem solving, complex issue management",
+    "function": {
+      "description": "Primary focus is on improving response to complex issues, and/or solving complex problems (where a solution is possible). Often emerges from an information diffusion or knowledge exchange network.",
+      "citations": [
+        "Isset et al., 2011",
+        "McGuire, 2006",
+        "Milward & Provan, 2006"
+      ]
+    }
+  },
+  {
+    "network_type": "Effective service delivery, service implementation, service coordination, action",
+    "function": {
+      "description": "Primary focus is service delivery, where services are jointly produced by more than two organizations. Collaboration is often between programs in larger organizations.",
+      "citations": [
+        "Graddy & Chen, 2006",
+        "Isett et al., 2011",
+        "Mays & Scutchfield, 2010",
+        "McGuire, 2006",
+        "Milward & Provan, 2006"
+      ]
+    }
+  },
+  {
+    "network_type": "Innovation",
+    "function": {
+      "description": "Primary focus is on creating an environment where diversity, collaboration and openness are promoted with the goal of enabling and diffusing innovation.",
+      "citations": [
+        "Borgatti & Foster, 2003",
+        "Hartley & Benington, 2006",
+        "Hobrecht et al., 2011",
+        "Keast et al., 2004",
+        "Thorgren, Wincent, & Ortqvist, 2009",
+        "Klijn et al., 2010",
+        "Turrini et al., 2010",
+        "Munoz & Lu, 2011"
+      ]
+    }
+  },
+  {
+    "network_type": "Policy",
+    "function": {
+      "description": "Primary focus here is an interest in public decisions within a particular area of policy. The original conceptualization of policy networks concerned decision making about public resource allocation.",
+      "citations": [
+        "Isset et al., 2011",
+        "Mays & Scutchfield, 2010",
+        "Rethemeyer & Hatmaker, 2008"
+      ]
+    }
+  },
+  {
+    "network_type": "Collaborative governance",
+    "function": {
+      "description": "Primary focus on direction, control and coordination of collective action between government agencies and non-public groups, including government funded initiatives or contracts.",
+      "citations": [
+        "Ansell & Gash, 2008",
+        "Provan & Lemaire, 2012",
+        "Vangen et al., 2014"
+      ]
+    }
+  }
+]

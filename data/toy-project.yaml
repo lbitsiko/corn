@@ -1,0 +1,101 @@
+project:
+  name: Toy Relationship Dataset
+  slug: toy-relationships
+
+source:
+  type: csv
+  mode: copy
+  path: data/toy-dataset.csv
+
+document:
+  id_field: id
+  text_field: comment
+
+metadata_fields:
+  - name: subreddit
+    source_field: subreddit
+  - name: person_a
+    source_field: person_a
+  - name: person_b
+    source_field: person_b
+  - name: relationship_type
+    source_field: relationship_type
+  - name: sentiment
+    source_field: sentiment
+  - name: topic
+    source_field: topic
+
+filters:
+  - field: subreddit
+    label: Subreddit
+    type: select
+  - field: sentiment
+    label: Sentiment
+    type: select
+  - field: topic
+    label: Topic
+    type: multi_select
+  - field: relationship_type
+    label: Relationship Type
+    type: text_contains
+  - field: person_a
+    label: Person A
+    type: text_contains
+  - field: person_b
+    label: Person B
+    type: text_contains
+
+tie_schema:
+  - label: romantic conflict
+    description: Conflict or recurring tension between romantic partners.
+  - label: family support
+    description: Practical or emotional support between family members.
+  - label: friendship breakdown
+    description: A friendship that has weakened or become distant.
+  - label: roommate conflict
+    description: Conflict between people sharing living space.
+  - label: workplace support
+    description: Help, recognition, or advocacy in a work relationship.
+  - label: sibling comparison
+    description: A sibling dynamic involving favoritism or unequal treatment.
+  - label: romantic support
+    description: Care, encouragement, or help in a romantic relationship.
+  - label: mentorship
+    description: Guidance or support from a more experienced person.
+  - label: cooperation
+    description: Coordination or agreement on a shared plan.
+  - label: one-sided friendship
+    description: Uneven effort or care in a friendship.
+  - label: workplace conflict
+    description: Professional disagreement or tension at work.
+  - label: family caregiving
+    description: Ongoing care or health support within a family.
+  - label: trust
+    description: Reliance signaling confidence, safety, or vulnerability.
+  - label: supportive rivalry
+    description: Competitive but still affirming relationship dynamic.
+  - label: post-breakup dependence
+    description: Continued reliance after a romantic breakup.
+  - label: attempted repair
+    description: Effort to reconcile or restore a damaged relationship.
+  - label: strained mentorship
+    description: A mentorship relationship under tension.
+  - label: family conflict
+    description: Repeated disagreement or tension between family members.
+  - label: emotional intimacy
+    description: Expressions of closeness, affection, or feeling cared for.
+  - label: instrumental friendship
+    description: A friendship used mainly for favors or resources.
+
+tie_attribute_schema:
+  - name: valence
+    type: categorical
+    description: Whether the interaction is positive or negative
+    options: [positive, negative]
+  - name: sentiment
+    type: numeric
+    description: Sentiment intensity of the tie
+    range: [0, 1]
+  - name: time
+    type: temporal
+    description: When the interaction occurred
