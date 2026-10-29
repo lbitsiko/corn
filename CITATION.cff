@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use CORN in your research, please cite the software as below."
+title: "CORN: Corpus-Oriented Relationship Notation"
+type: software
+authors:
+  - family-names: Bitsikokos
+    given-names: Loizos
+version: 0.1.0
+date-released: 2026-10-26
+url: "https://github.com/lbitsiko/corn"
+repository-code: "https://github.com/lbitsiko/corn"
+license: GPL-3.0-only
+abstract: >-
+  CORN is a project-driven corpus annotation application for encoding network relationships with exports, LLM assistance and human-AI evaluation.
+keywords:
+  - corpus annotation
+  - relationship annotation
+  - qualitative coding
+  - network data
+  - natural language processing
+  - large language models
